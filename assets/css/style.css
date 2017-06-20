@@ -9,3 +9,17 @@ body{
 	padding: 5%;
 	background-color: rgba(0, 0, 255, .6);
 }
+.form-group label{
+	color: #ffffff;
+}
+#datos{
+	color: #ffffff;
+	font-weight: 600;
+}
+#data{
+	color: #ffffff;
+	font-weight: 600;
+}
+.btn-primary{
+	margin: 2%;
+}
