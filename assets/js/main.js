@@ -5,3 +5,11 @@ function saveData(){
 	var clave = document.getElementById("clave").value;
 	sessionStorage.setItem(name,clave);
 }
+// en la siguiente función un for recorre sessionStorage donde getItem recupera los datos guardados anteriormente
+function recoverData(){
+	for(var i=0; i<sessionStorage.length; i++){
+		var name=sessionStorage.key(i);
+		var clave= sessionStorage.getItem(name);
+		document.getElementById("data").innerHTML = "<div>"+"Nombre: " + name + "<br/> Clave: " + clave + "</div>";
+	}
+}
